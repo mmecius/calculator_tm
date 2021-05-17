@@ -13,7 +13,22 @@ operator 	function
 
 ## Installation
 
+```bash
+pip install git+https://github.com/mmecius/calculator_tm
+```
+
 ## Configuration
 
+Additional have to be installed:
+```bash
+pip install hypothesis
+pip install pytest
+```
+## Docker run
+
+Additional have to be installed:
+```bash
+docker build -t calculator .
+```
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

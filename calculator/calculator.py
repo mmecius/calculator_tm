@@ -108,6 +108,9 @@ class Calculator:
         return self.result
 
 
+# Tests
+
+
 def test_addition():
     calc_test = Calculator(3, 3)
     assert calc_test.addition() == 6.0
@@ -191,4 +194,3 @@ test_types()
 torture_test()
 doctest.testmod()
 test_calculator()
-
